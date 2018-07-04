@@ -1,0 +1,17 @@
+thead {
+	background-color: #006699;
+	color: #FFFFFF;
+}
+.navbar {
+    margin-bottom: 0px;
+}
+.dataTables_empty {
+	display:none;
+}
+.dataTables_wrapper .dt-buttons .btn {
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+.breadcrumb {
+  margin-top: 1.5rem;
+}

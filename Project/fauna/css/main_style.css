@@ -1,0 +1,193 @@
+body {
+	margin-top : 0px;
+	margin-left : 0px;
+	font-family : Georgia, "Times New Roman", Times, serif;
+	color : #000000;
+	position : relative;
+	background : url("../images/mainback.jpg") no-repeat;	
+	position : relative;
+	min-height : 100%;
+	background-position : top right;
+	background-repeat : no-repeat;
+	background-attachment : fixed;
+	background-size : 120%;
+}
+.headerlogo {
+	width : 100%;
+	display : inline-block;
+	margin-top : 10px;
+	margin-bottom : 5px;	
+	background-color : #FFFFFF;
+	border : 0px solid #D4D4D4;
+}
+.logo1 {
+	background-image : url("../images/logo1.png");
+	width : 293px;
+	height : 66px;
+	float : left;
+}
+.logo2 {
+	background-image : url("../images/logo2.png");
+	width : 240px;
+	height : 66px;
+	float : right;
+}
+.headertitle {
+	width : 100%;
+	display : inline-block;
+	margin-bottom : 10px; 
+	background-image :url("../images/maintitle.png");
+	border : 1px solid #720026;
+	-webkit-border-radius : 4px;
+	-moz-border-radius : 4px;
+	border-radius : 4px;
+}
+.headertitle h2 {
+	padding-left : 10px;
+	color : #FFFFFF;
+}
+.navbar {
+	margin-bottom : 10px;
+}
+.navbar-inner {
+	background :#FFFFFF;
+	background-color :#720026;
+	background-repeat : repeat-x;
+	border : 1px solid #720026;
+	-webkit-border-radius : 4px;
+	   -moz-border-radius : 4px;
+	        border-radius : 4px;
+}
+.navbar .nav > li > a {
+	color : #FFFFFF;
+	text-shadow : none;
+}
+.navbar .nav > li > a :focus, .navbar .nav > li > a :hover {
+	text-decoration : underline;
+	background-color : transparent;
+	color :#000000;
+}
+.navbar .divider-vertical {
+	border-right : 1px solid #FFFFFF;
+		border-left : 1px solid  #370012;
+}
+.nav-tabs.nav-stacked > li > a, .nav-tabs > li > a  {
+	color : #720026;
+	padding-left : 5px;
+	padding-bottom : 5px;
+	text-shadow : none;
+	border : none;
+	border-bottom : 1px solid #D4D4D4;
+}
+.nav-tabs.nav-stacked > h4  {
+	color : #720026;
+}
+
+.main-content {
+	width : 100%;
+	display : inline-block;
+	min-height :450px;
+	background-color :#fff;
+	margin-bottom : 10px;
+	border : 0px solid #D4D4D4;
+	text-align : left;
+}
+.login-table {
+	background-color : #FFFFFF;
+	margin-bottom : 10px;	
+}
+.login-table th {
+	text-align : center;
+}
+.login-table td {
+	text-align : center;
+	font-size : 12px;
+}
+.search-table {
+	background-color : #FFFFFF;
+	margin-bottom : 0px;	
+}
+.search-title {
+	font-weight :bold;
+	background-color : #720026;
+	color : #FFFFFF;
+	padding : 8px;
+}
+.search-title1{
+	font-weight:bold;
+	background-color: #FFEEE6;
+	color: #FFFFFF;
+	padding: 8px;
+	text-align:left;	
+}
+.search-title2{
+	font-weight:bold;
+	background-color: #FFEEE6;
+	color: #FFFFFF;
+	padding: 8px;
+	text-align:right;
+}
+.search-control {
+	padding-top : 10px;
+}
+.list-table, .more-table {
+	background-color : #FFFFFF;
+	padding-bottom : 10px;
+	margin-bottom : 10px;
+}
+.table {
+	margin-bottom : 0px;
+}
+.table th {
+	padding : 8px;
+}
+thead {
+	background-color : #720026;
+	color : #FFFFFF;
+}
+thead .title {
+	color : #fff;
+	font-size : large;
+}
+.alert {
+	margin-bottom : 0px;
+}
+.footer {
+	font-family : Geneva, Arial, Helvetica, sans-serif;
+	font-size : small;
+}
+.home-button {
+	display: inline-block;
+	float: left;
+	width: 200px;
+	text-align: left;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.navbar-inner1 {
+	min-height : 40px;
+	padding-right : 20px;
+	padding-left : 20px;
+	background-color : #fafafa;
+	background-image : -moz-linear-gradient(top, #ffffff, #FFEEE6);
+	background-image : -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#FFEEE6));
+	background-image : -webkit-linear-gradient(top, #ffffff, #FFEEE6);
+	background-image : -o-linear-gradient(top, #ffffff, #FFEEE6);
+	background-image : linear-gradient(to bottom, #ffffff, #FFEEE6);
+	background-repeat : repeat-x;
+	border : 0px solid #FFEEE6;
+	filter : progid :DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
+	-webkit-box-shadow : 0 1px 4px rgba(0, 0, 0, 0.065);
+	-moz-box-shadow : 0 1px 4px rgba(0, 0, 0, 0.065);
+	box-shadow : 0 1px 4px rgba(0, 0, 0, 0.065);
+}
+
+.img-button {
+	display : inline-block;
+	float : left;
+
+	text-align : center;
+	margin-left : 20px;
+	margin-bottom : 10px;
+	margin-top :10px;
+}
